@@ -1,0 +1,19 @@
+
+.Navbar 
+{
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
+.Navbar .Link
+{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}

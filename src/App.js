@@ -12,8 +12,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />}/>
-          <Route path='blog' element={<Blog/>}/>
-          <Route path='Work' element={<Work />}/>
+          <Route path='/blog' element={<Blog/>}/>
+          <Route path='/Work' element={<Work />}/>
         </Routes>
         <Footer />
     </BrowserRouter>
