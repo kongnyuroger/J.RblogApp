@@ -4,22 +4,7 @@
     box-sizing: border-box;
 }
 
-.photo{
-    width: 25%;
-    height: 30vh;
-}
-
-.photo img{
-    width: 100%;
-    height: 30vh;
-}
-
-.content{
-    width: 85%;
-    height: 30vh;
-}
-
-@media (max-width: 576px) {
+@media (max-width: 810px) {
     .box{
         display: flex;
         flex-direction: column;
@@ -28,14 +13,12 @@
     .content{
         width: auto;
         text-align: justify;
-        padding-left: 3%;
-        padding-right: 3%;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding: 3%;
     }
 
     .photo{
         width: auto;
+        min-height: 30vh;
     }
 
     .workcard-padding{
@@ -48,7 +31,22 @@
 ................................Responsive Computer screen...............................
 */
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+    .photo{
+        width: 25%;
+        height: 30vh;
+    }
+    
+    .photo img{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .content{
+        width: 75%;
+        height: 30vh;
+    }
+    
     .box{
         display: flex;
         flex-direction: row;

@@ -13,7 +13,9 @@ const WorkCard = ({ info }) => { // Destructuring the info prop passed by the wo
                         //div contains the picture.
                         }
 
-                        <div className="photo bg-white"><img src={info.photo} className="img-fluid rounded bg-danger" alt="" /></div>
+                        <div className="photo bg-white">
+                            <img src={info.photo} className="img-fluid rounded bg-white" alt="" />
+                        </div>
                         
                         {
                         // div contains the content.
