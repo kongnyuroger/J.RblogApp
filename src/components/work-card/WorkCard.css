@@ -18,3 +18,39 @@
     width: 85%;
     height: 30vh;
 }
+
+@media (max-width: 576px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        width: auto;
+        text-align: justify;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .photo{
+        width: auto;
+    }
+
+    .workcard-padding{
+        padding: 0;
+    }
+}
+
+
+/*
+................................Responsive Computer screen...............................
+*/
+
+@media (min-width: 768px) {
+    .box{
+        display: flex;
+        flex-direction: row;
+    }
+}
