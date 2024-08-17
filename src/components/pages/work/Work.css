@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* remove the padding from the work page for mobile*/
+
 @media (max-width: 576px){
     .padding-control{
         padding: 0px;
