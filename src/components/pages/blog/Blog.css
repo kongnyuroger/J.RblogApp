@@ -7,3 +7,15 @@
     margin-bottom: 2rem;
     font-weight: bolder;
 }
+@media(max-width: 768px){
+    .blogpage
+    {
+        padding: 40px 100px ;
+    }
+}
+@media(max-width: 435px){
+    .blogpage
+    {
+        padding: 20px;
+    }
+}
