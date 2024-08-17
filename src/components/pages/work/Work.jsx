@@ -6,7 +6,7 @@ import { contents } from "./content";     // importing external file with an arr
 const Work = () => {
     return (
         <div className='page'>
-            <h1 className="fw-bold">Work</h1>
+            <h1 className="fw-bold p-4">Work</h1>
             
             <div>
                 {
