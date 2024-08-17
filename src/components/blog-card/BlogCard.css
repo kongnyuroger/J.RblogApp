@@ -1,7 +1,7 @@
 .BlogCard
 {
     padding: 0px 90px 10px 0px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     border-bottom: 1px solid black;
 }
 .info
@@ -17,4 +17,12 @@
 .info span
 {
     padding-left: 1.5rem;
+}
+
+@media(max-width: 435px){
+    .BlogCard
+{
+    padding: 0px 0px 10px 0px;
+    
+}
 }
