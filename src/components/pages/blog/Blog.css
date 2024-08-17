@@ -1,1 +1,9 @@
-
+.blogpage
+{
+    padding: 40px 200px;
+}
+.page-title
+{
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
