@@ -1,9 +1,9 @@
 import React from "react"
 import './BlogCard.css'
 
-const BlogCard = ({title, date, describetion}) => {
+const BlogCard = ({title, date, describetion, costomStyle}) => {
     return (
-        <div className='BlogCard'>
+        <div className='BlogCard' style={costomStyle}>
             <h1> {title? title : "UI Interaction of the week"}</h1>
             <div className="info">
                 <p className="date">{date? date : "12 Feb 2019"}</p>
