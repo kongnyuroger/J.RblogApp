@@ -2,10 +2,9 @@ import React from "react"
 import { useState, useEffect } from "react"
 import './Blog.css'
 import BlogCard from "../../blog-card/BlogCard"
-import App from "../../../App"
+
 
 const Blog = () => {
-    
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
         const api = `${process.env.REACT_APP_API_KEY }`
