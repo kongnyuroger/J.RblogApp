@@ -16,7 +16,7 @@ const Home = () => {
             <section className="sec1">
                 <div className="text">
                     <h1>Hi, I am John <br></br>Creative Technologist</h1>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p>Amet minim mollit Ruger deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <button>Download Resumer</button>
                 </div>
                 <div className="img">
